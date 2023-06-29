@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Desktop Recorder",
+    "version": "1.0",
+    "permissions": ["desktopCapture", "audioCapture", "videoCapture", "storage"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
